@@ -41,30 +41,30 @@ class MyNavbar extends React.Component {
       if (authed) {
         return (
           <Nav className="ml-auto" navbar>
-          <NavItem>
-            <NavLink tag={RRNavLink} to='/home'>Home</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink tag={RRNavLink} to='/new'>New Scat</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink onClick={this.logMeOut}>Log Out</NavLink>
-          </NavItem>
-        </Nav>
+            <NavItem>
+              <NavLink tag={RRNavLink} to='/home'>Home</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink tag={RRNavLink} to='/new'>New Scat</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink onClick={this.logMeOut}>Logout</NavLink>
+            </NavItem>
+          </Nav>
         );
       }
       return <Nav className="ml-auto" navbar></Nav>;
     };
 
     return (
-      <div className="MyNavbar">
+      <div className="myNavbar">
         <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">Scat Surprise</NavbarBrand>
-        <NavbarToggler onClick={this.toggle} />
-        <Collapse isOpen={isOpen} navbar>
-        {buildNavbar()}
-        </Collapse>
-      </Navbar>
+          <NavbarBrand href="/">Scat Surprise</NavbarBrand>
+          <NavbarToggler onClick={this.toggle} />
+          <Collapse isOpen={isOpen} navbar>
+            {buildNavbar()}
+          </Collapse>
+        </Navbar>
       </div>
     );
   }
