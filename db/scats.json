@@ -56,7 +56,7 @@
       "uid": "eDSx4ldve6XPql18CaD9jc0WXgS2"
     },
     "scat6": {
-      "color": "dark brown",
+      "color": "pink",
       "shape": "hawaii",
       "size": "small",
       "temperature": 78,
@@ -89,7 +89,7 @@
       "uid": "p00pin"
     },
     "scat9": {
-      "color": "Red",
+      "color": "red",
       "shape": "log",
       "size": "medium",
       "temperature": 99,
@@ -166,7 +166,7 @@
       "uid": "12345"
     },
     "scat16": {
-      "color": "yellow-y brown",
+      "color": "burlywood",
       "shape": "swirly mountain",
       "size": "medium-ish",
       "temperature": 99,
