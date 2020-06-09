@@ -19,7 +19,7 @@ class SingleScat extends React.Component {
     const { scat } = this.state;
 
     return (
-      <div className="SingleScat p-5" style={{ backgroundColor: scat.color }}>
+      <div className="SingleScat col-12 p-5" style={{ backgroundColor: scat.color }}>
         <h1>{scat.location}</h1>
         <p>Color: {scat.color}</p>
         <p>Size: {scat.size}</p>
